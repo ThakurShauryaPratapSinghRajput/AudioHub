@@ -1,0 +1,349 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AudioHUB — Audio Library</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+
+    <!-- =========================
+         SIDEBAR
+    ========================== -->
+
+    <aside class="sidebar">
+        <div class="brand">
+            <div class="brand-icon">♫</div>
+            <span>Audio<span>HUB</span></span>
+        </div>
+
+        <nav class="main-nav">
+            <a href="#home" class="active">
+                <span>⌂</span>
+                Home
+            </a>
+
+            <a href="#library">
+                <span>▣</span>
+                Audio Library
+            </a>
+
+            <a href="#categories">
+                <span>◈</span>
+                Categories
+            </a>
+        </nav>
+
+        <div class="sidebar-title">
+            YOUR LIBRARY
+        </div>
+
+        <nav class="library-nav">
+            <a href="#music">
+                <span>♫</span>
+                Music
+            </a>
+
+            <a href="#effects">
+                <span>⚡</span>
+                Sound Effects
+            </a>
+
+            <a href="#funny">
+                <span>☻</span>
+                Funny
+            </a>
+
+            <a href="#background">
+                <span>☁</span>
+                Background
+            </a>
+        </nav>
+
+        <div class="sidebar-bottom">
+            <div class="mini-note">
+                ♫
+            </div>
+
+            <div>
+                <strong>AudioHUB</strong>
+                <small>Free Audio Library</small>
+            </div>
+        </div>
+    </aside>
+
+    <!-- =========================
+         MAIN CONTENT
+    ========================== -->
+
+    <main class="main">
+
+        <!-- HEADER -->
+
+        <header class="topbar">
+            <div class="navigation-buttons">
+                <button>‹</button>
+                <button>›</button>
+            </div>
+
+            <div class="top-links">
+                <a href="#library">
+                    Explore
+                </a>
+
+                <a href="#categories">
+                    Categories
+                </a>
+
+                <a href="#about">
+                    About
+                </a>
+            </div>
+        </header>
+
+        <!-- =========================
+             HERO
+        ========================== -->
+
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <span class="eyebrow">
+                    AUDIO LIBRARY
+                </span>
+
+                <h1> Every sound.<br> <span> One place. </span> </h1>
+                <p> Discover music, sound effects, funny sounds, background audio and more.</p>
+                <a href="#library" class="hero-button"> Explore Audio </a>
+            </div>
+
+            <div class="hero-art">
+                <div class="disc">
+                    <div class="disc-center"> ♫ </div>
+                </div>
+
+                <div class="floating-card card-one">    🎵    </div>
+                <div class="floating-card card-two">    🔊    </div>
+                <div class="floating-card card-three">  💥    </div>\
+            </div>
+        </section>
+
+        <!-- =========================
+             CATEGORIES
+        ========================== -->
+
+        <section class="section" id="categories">
+            <div class="section-heading">
+                <div> <span class="section-label"> BROWSE </span> <h2> Categories </h2> </div>
+                <a href="#library">    See all  </a>
+            </div>
+
+            <div class="category-grid">
+
+                <a href="#music" class="category-card music">
+                    <div class="category-icon">    ♫    </div>
+                    <div>    
+                        <h3>Music</h3>    
+                        <p>Tracks & melodies</p>
+                    </div>
+                </a>
+
+                <a href="#effects" class="category-card effects">
+                    <div class="category-icon"> ⚡ </div>
+                    <div>
+                        <h3>Sound Effects</h3>
+                        <p>Impact & FX sounds</p>
+                    </div>
+                </a>
+
+                <a href="#funny" class="category-card funny">
+                    <div class="category-icon"> ☻ </div>
+                    <div>
+                        <h3>Funny</h3>
+                        <p>Comedy sounds</p>
+                    </div>
+                </a>
+
+                <a href="#background" class="category-card background">
+                    <div class="category-icon"> ☁ </div>
+                    <div>
+                        <h3>Background</h3>
+                        <p>Ambient & chill</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- =========================
+             AUDIO LIBRARY
+        ========================== -->
+
+        <section class="section" id="library">
+            <div class="section-heading">
+                <div>
+                    <span class="section-label">
+                        DISCOVER
+                    </span>
+
+                    <h2> Popular Audio </h2>
+                </div>
+                <a href="#library"> See all </a>
+            </div>
+
+            <div class="audio-grid">
+                <!-- AUDIO 1 -->
+                <article class="audio-card"> <div class="cover cover-purple"> 😂 </div> <div class="audio-info"> <h3> Faaah </h3> <p> Funny • Sound Effect </p> </div> <audio controls> <source src="/sounds/faaah.mp3" type="audio/mpeg"> </audio> <a class="download-button" href="/sounds/faaah.mp3" download> ↓ Download </a> </article>
+                <!-- AUDIO 2 -->
+                <article class="audio-card"> <div class="cover cover-green"> 🤪 </div> <div class="audio-info"> <h3> Rizz </h3> <p> Funny • Cartoon </p> </div> <audio controls> <source src="/sounds/rizz-sound-effect.mp3" type="audio/mpeg"> </audio> <a class="download-button" href="/sounds/rizz-sound-effect.mp3" download> ↓ Download</a> </article>
+                <!-- AUDIO 3 -->
+                <article class="audio-card"> <div class="cover cover-red"> 💥 </div> <div class="audio-info"> <h3> Gun Shot </h3> <p> Sound Effects • Impact </p> </div> <audio controls> <source src="/sounds/gunshotjbudden.mp3" type="audio/mpeg"> </audio> <a class="download-button" href="/sounds/gunshotjbudden.mp3" download> ↓ Download </a> </article>
+                <!-- AUDIO 4 -->
+                <article class="audio-card"> <div class="cover cover-blue"> 🔔 </div> <div class="audio-info"> <h3> Ki Kore </h3> <p> Sound Effects • Notification </p> </div> <audio controls> <source src="/sounds/ki-kore.mp3" type="audio/mpeg"> </audio> <a class="download-button" href="/sounds/ki-kore.mp3" download> ↓ Download </a> </article>
+                <!-- AUDIO 5 -->
+                <article class="audio-card"> <div class="cover cover-orange"> 🌌 </div> <div class="audio-info"> <h3> Matlab woh alag level ka banda tha </h3> <p> Background • Ambient </p> </div> <audio controls> <source src="/sounds/matlab-wo-alag-hi-level-ka-banda-tha.mp3" type="audio/mpeg"> </audio> <a class="download-button" href="/sounds/matlab-wo-alag-hi-level-ka-banda-tha.mp3" download> ↓ Download </a> </article>
+                <!-- AUDIO 6 -->
+                <article class="audio-card"> <div class="cover cover-pink"> 🎵 </div> <div class="audio-info"> <h3> Ooo Bhai </h3> <p> Music • Cinematic </p> </div> <audio controls> <source src="/sounds/maa-tari-oo-bhai.mp3" type="audio/mpeg"> </audio> <a class="download-button" href="/sounds/maa-tari-oo-bhai.mp3" download> ↓ Download </a> </article>
+         </div>
+        </section>
+
+        <!-- =========================
+             MUSIC
+        ========================== -->
+
+        <section class="section" id="music">
+            <div class="section-heading">
+                <div>
+                    <span class="section-label">    MUSIC    </span>
+                    <h2>    Music Collection    </h2>
+                </div>
+            </div>
+            <div class="horizontal-list">
+                <div class="small-audio">
+                    <div class="small-cover">    🎵    </div>
+                    <div class="small-info">
+                        <h3>    Epic Music  </h3>
+                        <p>    Cinematic    </p>
+                    </div>
+                    <audio controls> <source src="/sounds/faaah.mp3" type="audio/mpeg"> </audio>
+                    <a href="/sounds/faaah.mp3" download> ↓ </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================
+             SOUND EFFECTS
+        ========================== -->
+
+        <section class="section" id="effects">
+            <div class="section-heading">
+                <div>
+                    <span class="section-label">    SOUND EFFECTS    </span>
+                    <h2>    Sound Effects   </h2>
+                </div>
+            </div>
+
+            <div class="horizontal-list">
+                <div class="small-audio">
+                    <div class="small-cover red"> 💥 </div>
+                    <div class="small-info">
+                        <h3>    Explosion    </h3>
+                        <p>    Impact   </p>
+                    </div>
+                    <audio controls> <source src="/sounds/faaah.mp3" type="audio/mpeg"> </audio>
+                    <a href="/sounds/faaah.mp3" download> ↓ </a>
+                </div>
+
+                <div class="small-audio">
+                    <div class="small-cover blue"> 🔔 </div>
+                    <div class="small-info">
+                        <h3>    Notification    </h3>
+                        <p>    UI Sound    </p>
+                    </div>
+                    <audio controls> <source src="/sounds/faaah.mp3" type="audio/mpeg"> </audio>
+                    <a href="/sounds/faaah.mp3" download> ↓ </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================
+             FUNNY
+        ========================== -->
+
+        <section class="section" id="funny" >
+            <div class="section-heading">
+                <div>
+                    <span class="section-label"> FUNNY </span>
+                    <h2> Funny Sounds </h2>
+                </div>
+            </div>
+            <div class="audio-grid">
+                <article class="audio-card">
+                    <div class="cover cover-purple"> 😂 </div>
+                    <div class="audio-info">
+                        <h3> Funny Laugh </h3>
+                        <p> Comedy </p>
+                    </div>
+                    <audio controls> <source src="/sounds/faaah.mp3" type="audio/mpeg"></audio>
+                    <a href="/sounds/faaah.mp3" download class="download-button"> ↓ Download </a>
+                </article>
+
+                <article class="audio-card">
+                    <div class="cover cover-green"> 🤪 </div>
+                    <div class="audio-info">
+                        <h3> Cartoon Boing </h3>
+                        <p> Cartoon </p>
+                    </div>
+                    <audio controls> <source src="/sounds/faaah.mp3" type="audio/mpeg"> </audio>
+                    <a href="/sounds/faaah.mp3" download class="download-button"> ↓ Download </a>
+                </article>
+            </div>
+        </section>
+
+        <!-- =========================
+             BACKGROUND
+        ========================== -->
+
+        <section class="section" id="background">
+            <div class="section-heading">
+                <div>
+                    <span class="section-label"> BACKGROUND </span>
+                    <h2> Background Audio </h2>
+                </div>
+            </div>
+            <div class="audio-grid">
+                <article class="audio-card">
+                    <div class="cover cover-orange"> 🌌 </div>
+                    <div class="audio-info">
+                        <h3> Chill Background </h3>
+                        <p> Ambient </p>
+                    </div>
+                    <audio controls> <source src="/sounds/faaah.mp3" type="audio/mpeg"> </audio>
+                    <a href="/sounds/faaah.mp3" download class="download-button"> ↓ Download </a>
+                </article>
+            </div>
+        </section>
+
+        <!-- =========================
+             ABOUT
+        ========================== -->
+
+        <section class="about" id="about">
+            <div class="about-logo">  ♫  </div>
+            <h2>    Welcome to AudioHUB    </h2>
+            <p> A simple place to discover, listen to and download audio files.            </p>
+        </section>
+
+        <!-- =========================
+             FOOTER
+        ========================== -->
+        <footer>
+            <div class="footer-brand">  Audio<span>HUB</span>   </div>
+            <p>    Your audio. Your library.    </p>
+            <div class="footer-bottom">
+                © 2026 AudioHUB. All rights reserved.
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
